@@ -1,0 +1,4 @@
+{
+    "openweather_api_key": "",
+    "config_note": "如需使用OpenWeatherMap数据源，请在此配置API密钥。免费注册地址: https://openweathermap.org/api"
+}
