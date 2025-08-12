@@ -1,0 +1,43 @@
+# 数据存储目录 - 排除所有数据文件但保留说明文档
+/data/*
+!/data/README.md
+!/data/config
+
+# Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# 分发/打包
+dist/
+build/
+*.egg-info/

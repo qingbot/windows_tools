@@ -9,3 +9,6 @@ alwaysApply: true
 - py all_tools.py toolname -parametername0 parameter  -parametername1 parameter1 这种形式去调用对应的工具
 - 每个工具都应该可以单独执行  py toolname -parametername0 parameter
 - all_tools.py 应该提供mcp_server模式，提供一个获取所有功能的mcp调用的描述的mcp函数，一旦进入此模式就开启一个服务进程等待调用
+- readme.md是开发规范
+- 如果工具有依赖，请添加至requirements.txt
+- 如果工具要产生临时数据，存放至data文件夹下，git已经将其ignore，如果有配置文件放置data/config文件夹下，git将其设为了白名单
